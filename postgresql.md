@@ -22,8 +22,9 @@ Install PgAdmin4
 - Click on `pgAdmin4`. It will open an interface on browser (http://127.0.0.1:43911/browser/).
 - Create connection
 ![PgSql Connection](images/pg-connect.png)
+- Save connection.
 
-** Enjoy **
+----------------------------------------------------------
 
 
 
