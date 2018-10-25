@@ -19,9 +19,11 @@ Install PgAdmin4
 - [Download](https://www.pgadmin.org/download/pgadmin-4-python-wheel/)
 - Unzip the zip file.
 - `cd pgsql/pgAdmin 4/bin`
-- Click on pgAdmin4. It will open an interface on browser (http://127.0.0.1:43911/browser/).
+- Click on `pgAdmin4`. It will open an interface on browser (http://127.0.0.1:43911/browser/).
 - Create connection
 ![PgSql Connection](images/pg-connect.png)
+
+** Enjoy **
 
 
 
