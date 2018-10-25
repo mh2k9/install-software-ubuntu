@@ -16,4 +16,6 @@ Install PostgreSql
 
 Install PgAdmin4
 ---------------
-(Download)[https://www.pgadmin.org/download/pgadmin-4-python-wheel/]
+- (https://www.pgadmin.org/download/pgadmin-4-python-wheel/)[Download]
+- Unzip the zip file.
+
