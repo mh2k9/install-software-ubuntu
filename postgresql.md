@@ -16,6 +16,9 @@ Install PostgreSql
 
 Install PgAdmin4
 ---------------
-- (https://www.pgadmin.org/download/pgadmin-4-python-wheel/)[Download]
+- [Download](https://www.pgadmin.org/download/pgadmin-4-python-wheel/)
 - Unzip the zip file.
+- `cd pgsql/pgAdmin 4/bin`
+- Click on pgAdmin4. It will open an interface on browser (http://127.0.0.1:43911/browser/).
+
 
