@@ -24,7 +24,34 @@ Install PgAdmin4
 ![PgSql Connection](images/pg-connect.png)
 - Save connection.
 
-----------------------------------------------------------
+Connect to PgSQL inside docker
+---------------------------
+Allow remote access
+
+- Change pg_hba.conf
+`$ sudo nano /etc/postgresql/10/main/pg_hba.conf`
+
+local   all             postgres                                peer
+host    all             all             127.0.0.1/32            md5
+
+Should be
+
+local   all             postgres                                md5
+host    all             all             0.0.0.0/0               md5
+
+- Change postgresql.conf
+
+`$ sudo nano /etc/postgresql/10/main/postgresql.conf`
+
+#listen_addresses = 'localhost'
+
+Should be
+
+listen_addresses = '*'
+
+- Restart postgresql service
+
+`$ sudo service postgresql restart`
 
 
 
