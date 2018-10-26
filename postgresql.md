@@ -10,8 +10,8 @@ Install PostgreSql
 - `$ sudo apt-get install postgresql postgresql-contrib`
 - `$ sudo -u postgres psql postgres`
 - postgres=# `\password postgres`
-- Enter new password: `******`
-- Enter it again: `*****`
+- Enter new password: `your_password`
+- Enter it again: `your_password`
 - Exit psql: `\q`
 
 Install PgAdmin4
@@ -54,9 +54,7 @@ Should be
 listen_addresses = '*'
 ```
 
-- Restart postgresql service
-
-`$ sudo service postgresql restart`
+- Restart postgresql service: `$ sudo service postgresql restart`
 
 --------------------------------------------------------------------
 
