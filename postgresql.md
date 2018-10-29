@@ -60,7 +60,7 @@ Migrations for Yii-1 framework
 --------------------
 - Go to `protected` directory
 - Install **php-pgsql**: `sudo apt-get install php-pgsql`
-- Create migrate: `php yiic migrate --migrationPath=application.modules.module_name.migrations create <name>`
-- Run migrate: `php yiic migrate --migrationPath=application.modules.module_name.migrations create up`
+- Create migration: `php yiic migrate --migrationPath=application.modules.module_name.migrations create <name>`
+- Run migration: `php yiic migrate --migrationPath=application.modules.module_name.migrations create up`
 
 
