@@ -56,11 +56,11 @@ listen_addresses = '*'
 
 - Restart postgresql service: `$ sudo service postgresql restart`
 
-Migrations for Yii 1 framework
+Migrations for Yii-1 framework
 --------------------
 - Go to `protected` directory
 - Install **php-pgsql**: `sudo apt-get install php-pgsql`
-- Create migrate: `php yiic migrate --migrationPath=application.modules.localization.migrations create <name>`
-- Run migrate: `php yiic migrate --migrationPath=application.modules.localization.migrations create up`
+- Create migrate: `php yiic migrate --migrationPath=application.modules.module_name.migrations create <name>`
+- Run migrate: `php yiic migrate --migrationPath=application.modules.module_name.migrations create up`
 
 
